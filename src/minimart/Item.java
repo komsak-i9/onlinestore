@@ -2,10 +2,10 @@ package minimart;
 
 class Item {
 
-    private int id;
-    private String name;
-    private double price;
-    private int    qty;
+    int id;
+    String name;
+    double price;
+    int    qty;
     
     public Item(int id, String name, double price) {
         this.id = id;
