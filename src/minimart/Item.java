@@ -3,7 +3,7 @@ package minimart;
 class Item {
 
     int id;
-    String name;
+    public  final String name;
     double price;
     int    qty;
     

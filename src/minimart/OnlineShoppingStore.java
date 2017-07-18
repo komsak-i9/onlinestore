@@ -47,8 +47,8 @@ public class OnlineShoppingStore {
      }
 
     public void showItems() {
-        for (Item item : items) {
+        items.forEach((item) -> {
             System.out.println(item.id + ":" + item.name + "(" + item.price + ")");
-        }
+        });
     }
 }
